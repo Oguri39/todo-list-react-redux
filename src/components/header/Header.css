@@ -1,0 +1,48 @@
+.header-box {
+  color: rgb(85, 95, 184);
+  font-size: 50px;
+  font-weight: 500;
+  margin: auto;
+}
+.new-todo-box {
+  background-color: white;
+  width: 730px;
+  margin: auto;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(85, 95, 184);
+}
+.today-time {
+  align-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+  width: 90%;
+  color: rgb(85, 95, 184);
+  padding-left: 20px;
+}
+.new-todo {
+  position: relative;
+  color: rgb(85, 95, 184);
+  background-color: white;
+  font-size: 43px;
+  cursor: pointer;
+  border-radius: 0px 15px 0px 0px;
+  height: 54px;
+  width: 10%;
+  border: unset;
+  border-left: 2px solid rgb(85, 95, 184);
+}
+.new-todo:hover {
+  background: rgb(85, 95, 184);
+  color: white;
+}
+@media (max-width: 767px) {
+  .header-box {
+    padding-top: 0;
+  }
+  .new-todo-box {
+    width: 100%;
+    padding: 0px;
+  }
+}

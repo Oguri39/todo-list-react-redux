@@ -1,0 +1,156 @@
+.deadline {
+  text-align: start;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.deadline-warning {
+  text-align: start;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(255, 123, 0);
+}
+.deadline-danger {
+  text-align: start;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(255, 0, 0);
+}
+.item {
+  list-style: none;
+  border-bottom: 1px solid #ededed;
+  font-size: 24px;
+  display: inline-flex;
+  width: 100%;
+  padding: 5px;
+  border-radius: 15px 0px 0px 15px;
+}
+.item-checked {
+  list-style: none;
+  border-bottom: 1px solid #ededed;
+  font-size: 24px;
+  display: inline-flex;
+  width: 100%;
+  padding: 5px;
+  text-decoration: line-through;
+}
+.delete {
+  right: 10px;
+  bottom: 0;
+  border: none;
+  background-color: unset;
+  font-weight: bolder;
+  float: right;
+  opacity: 0.5;
+  background-image: url(./trash-alt-regular.svg);
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  margin: auto 5px auto 0px;
+}
+.delete:hover {
+  opacity: 1;
+}
+input[type="checkbox" i] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  margin: auto 5px auto 0px;
+  height: 50px;
+  width: 50px;
+}
+.checkmark {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 25px;
+  width: 25px;
+  background-color: unset;
+  background-image: url(./circle-regular.svg);
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  margin: auto 5px auto 0px;
+}
+.checkmark-checked {
+  margin: auto 5px auto 0px;
+  height: 25px;
+  width: 25px;
+  background-color: unset;
+  background-image: url(./check-circle-regular.svg);
+  background-repeat: no-repeat;
+}
+.content-box {
+  width: 90%;
+  padding: 0px 5px;
+}
+p {
+  margin: unset;
+  font-size: 20px;
+}
+.todo-body {
+  text-align: start;
+  font-style: italic;
+  word-break: break-all;
+}
+.edit {
+  right: 10px;
+  bottom: 0;
+  border: none;
+  background-color: unset;
+  font-weight: bolder;
+  float: right;
+  opacity: 0.5;
+  background-image: url(./edit-regular.svg);
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  margin: auto 5px auto 0px;
+}
+.edit:hover {
+  opacity: 1;
+}
+.delete-box {
+  background-color: rgb(185, 76, 76);
+  margin: 15% auto;
+  width: 250px;
+  border-radius: 15px;
+  animation: fadeIn 0.4s;
+  color: white;
+  padding: 10px 10px 0px 10px;
+}
+.delete-yes {
+  border: unset;
+  color: rgb(85, 95, 184);
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px 6px;
+  padding: 10px;
+  width: 100px;
+}
+.delete-yes:hover {
+  background: rgb(85, 95, 184);
+  color: white;
+}
+.delete-no {
+  border: unset;
+  color: rgb(185, 76, 76);
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px 6px;
+  padding: 10px;
+  width: 100px;
+}
+.delete-no:hover {
+  background: rgb(185, 76, 76);
+  color: white;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

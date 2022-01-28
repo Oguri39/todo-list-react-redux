@@ -1,0 +1,105 @@
+.edit-box {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px 20px 10px 20px;
+  border: 2px solid rgb(85, 95, 184);
+  width: 300px;
+  border-radius: 15px;
+  animation: fadeIn 0.4s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.edit-input {
+  padding: 1px;
+  background-color: unset;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 24px;
+}
+.edit-input:focus {
+  outline: none;
+}
+.edit-button {
+  border: 2px solid rgb(85, 95, 184);
+  color: rgb(85, 95, 184);
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 10px;
+  width: 100px;
+  margin: 10px 6px 0px 6px;
+}
+.edit-button:hover {
+  background: #555fb8;
+  color: white;
+}
+.edit-input label {
+  font-size: 18px;
+}
+.edit-date {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: unset;
+  font-size: 20px;
+}
+.edit-cancel {
+  border: 2px solid rgb(185, 76, 76);
+  color: rgb(185, 76, 76);
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 10px;
+  width: 100px;
+  margin: 10px 6px 0px 6px;
+}
+.edit-cancel:hover {
+  background: rgb(185, 76, 76);
+  color: white;
+}
+.ask-box {
+  background-color: rgb(85, 95, 184);
+  margin: 15% auto;
+  width: 250px;
+  border-radius: 15px;
+  animation: fadeIn 0.4s;
+  color: white;
+  padding: 10px 10px 0px 10px;
+}
+.edit-yes {
+  border: unset;
+  color: rgb(85, 95, 184);
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px 6px;
+  padding: 10px;
+  width: 100px;
+}
+.edit-yes:hover {
+  background: rgb(85, 95, 184);
+  color: white;
+}
+.edit-no {
+  border: unset;
+  color: rgb(185, 76, 76);
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px 6px;
+  padding: 10px;
+  width: 100px;
+}
+.edit-no:hover {
+  background: rgb(185, 76, 76);
+  color: white;
+}

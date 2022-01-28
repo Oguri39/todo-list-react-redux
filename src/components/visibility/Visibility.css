@@ -1,0 +1,51 @@
+.filter-container {
+  padding-top: 10px;
+  border-top: 1px solid #ededed;
+}
+.filter-container button {
+  padding: 5px;
+}
+
+.button {
+  font-size: 15px;
+  border: unset;
+  background-color: unset;
+  color: rgb(85, 95, 184);
+  width: 100px;
+  font-weight: bolder;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 10px;
+}
+.button:hover {
+  border: 1px solid rgb(85, 95, 184);
+}
+
+.button-all {
+  background-color: rgb(85, 95, 184);
+  color: white;
+  font-size: 15px;
+  border: unset;
+  width: 100px;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+
+.button-completed {
+  background-color: rgb(85, 95, 184);
+  color: white;
+  font-size: 15px;
+  border: unset;
+  width: 100px;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+.button-incompleted {
+  background-color: rgb(85, 95, 184);
+  color: white;
+  font-size: 15px;
+  border: unset;
+  width: 100px;
+  font-weight: bolder;
+  border-radius: 15px;
+}
